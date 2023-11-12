@@ -2,7 +2,7 @@ using Wingmann.Algorithms.Search;
 
 namespace Wingmann.Algorithms.Tests.Search;
 
-public class LinearSearcherTests
+internal class LinearSearcherTests
 {
     private ISearcher _searcher;
 

@@ -2,7 +2,7 @@
 
 namespace Wingmann.Algorithms.Tests.Search;
 
-public static class TestCases
+internal static class TestCases
 {
     public static (int[], int, int) FindIndex_QueryPresent_CorrectIndex(ISearcher searcher, int count)
     {

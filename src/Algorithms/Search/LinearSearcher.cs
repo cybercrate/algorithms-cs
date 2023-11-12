@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Wingmann.Algorithms.Search
 {
     /// <summary>
-    /// Implements linear search algorithm.
+    /// Linear search algorithm implementation.
     /// See on <see href="https://en.wikipedia.org/wiki/Linear_search">Wikipedia</see>.
     /// </summary>
     public class LinearSearcher : ISearcher
@@ -12,7 +12,7 @@ namespace Wingmann.Algorithms.Search
         /// <inheritdoc cref="ISearcher.FindIndex{T}(IList{T}, T)" />
         public int FindIndex<T>(IList<T> data, T query) where T : IComparable<T>
         {
-            if (data.Count == 0)
+            if (data.Count is 0)
             {
                 return -1;
             }
